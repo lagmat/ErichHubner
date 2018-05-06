@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		7797BE7E2090088200648B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7797BE7D2090088200648B9E /* AppDelegate.swift */; };
-		7797BE802090088200648B9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7797BE7F2090088200648B9E /* ViewController.swift */; };
 		7797BE832090088200648B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7797BE812090088200648B9E /* Main.storyboard */; };
 		7797BE862090088200648B9E /* ErichHubner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7797BE842090088200648B9E /* ErichHubner.xcdatamodeld */; };
 		7797BE882090088400648B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7797BE872090088400648B9E /* Assets.xcassets */; };
 		7797BE8B2090088400648B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7797BE892090088400648B9E /* LaunchScreen.storyboard */; };
+		7797BE9320900BE700648B9E /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7797BE9220900BE700648B9E /* AjustesViewController.swift */; };
+		7797BE9520900C5C00648B9E /* TotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7797BE9420900C5C00648B9E /* TotalViewController.swift */; };
+		77C02C98209259E200BEE591 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C02C97209259E200BEE591 /* AddEditViewController.swift */; };
+		77C02C9C2092635B00BEE591 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C02C9B2092635B00BEE591 /* ViewController+CoreData.swift */; };
+		77C02C9E2092AD3A00BEE591 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C02C9D2092AD3A00BEE591 /* ProductsTableViewController.swift */; };
+		77C02CA22092AF3200BEE591 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C02CA12092AF3200BEE591 /* ProductTableViewCell.swift */; };
+		77E068F22098D814007767D5 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77E068F12098D814007767D5 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7797BE7A2090088200648B9E /* ErichHubner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ErichHubner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7797BE7D2090088200648B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7797BE7F2090088200648B9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7797BE822090088200648B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7797BE852090088200648B9E /* ErichHubner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ErichHubner.xcdatamodel; sourceTree = "<group>"; };
 		7797BE872090088400648B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7797BE8A2090088400648B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7797BE8C2090088400648B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7797BE9220900BE700648B9E /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
+		7797BE9420900C5C00648B9E /* TotalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalViewController.swift; sourceTree = "<group>"; };
+		77C02C97209259E200BEE591 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		77C02C9B2092635B00BEE591 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
+		77C02C9D2092AD3A00BEE591 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		77C02CA12092AF3200BEE591 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		77E068F12098D814007767D5 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +68,19 @@
 		7797BE7C2090088200648B9E /* ErichHubner */ = {
 			isa = PBXGroup;
 			children = (
-				7797BE7D2090088200648B9E /* AppDelegate.swift */,
-				7797BE7F2090088200648B9E /* ViewController.swift */,
+				77C02C9D2092AD3A00BEE591 /* ProductsTableViewController.swift */,
+				77C02C9B2092635B00BEE591 /* ViewController+CoreData.swift */,
+				77C02C97209259E200BEE591 /* AddEditViewController.swift */,
+				7797BE9220900BE700648B9E /* AjustesViewController.swift */,
+				7797BE9420900C5C00648B9E /* TotalViewController.swift */,
+				77C02CA12092AF3200BEE591 /* ProductTableViewCell.swift */,
 				7797BE812090088200648B9E /* Main.storyboard */,
+				7797BE7D2090088200648B9E /* AppDelegate.swift */,
 				7797BE872090088400648B9E /* Assets.xcassets */,
 				7797BE892090088400648B9E /* LaunchScreen.storyboard */,
 				7797BE8C2090088400648B9E /* Info.plist */,
 				7797BE842090088200648B9E /* ErichHubner.xcdatamodeld */,
+				77E068F12098D814007767D5 /* Settings.bundle */,
 			);
 			path = ErichHubner;
 			sourceTree = "<group>";
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E068F22098D814007767D5 /* Settings.bundle in Resources */,
 				7797BE8B2090088400648B9E /* LaunchScreen.storyboard in Resources */,
 				7797BE882090088400648B9E /* Assets.xcassets in Resources */,
 				7797BE832090088200648B9E /* Main.storyboard in Resources */,
@@ -138,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7797BE9320900BE700648B9E /* AjustesViewController.swift in Sources */,
 				7797BE862090088200648B9E /* ErichHubner.xcdatamodeld in Sources */,
-				7797BE802090088200648B9E /* ViewController.swift in Sources */,
+				77C02C98209259E200BEE591 /* AddEditViewController.swift in Sources */,
+				77C02C9C2092635B00BEE591 /* ViewController+CoreData.swift in Sources */,
+				77C02C9E2092AD3A00BEE591 /* ProductsTableViewController.swift in Sources */,
+				77C02CA22092AF3200BEE591 /* ProductTableViewCell.swift in Sources */,
+				7797BE9520900C5C00648B9E /* TotalViewController.swift in Sources */,
 				7797BE7E2090088200648B9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BQQD354589;
 				INFOPLIST_FILE = ErichHubner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.erich.ErichHubner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BQQD354589;
 				INFOPLIST_FILE = ErichHubner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +338,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.erich.ErichHubner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
