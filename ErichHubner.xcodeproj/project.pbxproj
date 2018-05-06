@@ -14,6 +14,7 @@
 		7797BE8B2090088400648B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7797BE892090088400648B9E /* LaunchScreen.storyboard */; };
 		7797BE9320900BE700648B9E /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7797BE9220900BE700648B9E /* AjustesViewController.swift */; };
 		7797BE9520900C5C00648B9E /* TotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7797BE9420900C5C00648B9E /* TotalViewController.swift */; };
+		77A75A64209F991F004BB498 /* StateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A75A63209F991F004BB498 /* StateTableViewCell.swift */; };
 		77C02C98209259E200BEE591 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C02C97209259E200BEE591 /* AddEditViewController.swift */; };
 		77C02C9C2092635B00BEE591 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C02C9B2092635B00BEE591 /* ViewController+CoreData.swift */; };
 		77C02C9E2092AD3A00BEE591 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C02C9D2092AD3A00BEE591 /* ProductsTableViewController.swift */; };
@@ -31,6 +32,7 @@
 		7797BE8C2090088400648B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7797BE9220900BE700648B9E /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
 		7797BE9420900C5C00648B9E /* TotalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalViewController.swift; sourceTree = "<group>"; };
+		77A75A63209F991F004BB498 /* StateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateTableViewCell.swift; sourceTree = "<group>"; };
 		77C02C97209259E200BEE591 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 		77C02C9B2092635B00BEE591 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 		77C02C9D2092AD3A00BEE591 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				7797BE9220900BE700648B9E /* AjustesViewController.swift */,
 				7797BE9420900C5C00648B9E /* TotalViewController.swift */,
 				77C02CA12092AF3200BEE591 /* ProductTableViewCell.swift */,
+				77A75A63209F991F004BB498 /* StateTableViewCell.swift */,
 				7797BE812090088200648B9E /* Main.storyboard */,
 				7797BE7D2090088200648B9E /* AppDelegate.swift */,
 				7797BE872090088400648B9E /* Assets.xcassets */,
@@ -164,6 +167,7 @@
 				77C02C9E2092AD3A00BEE591 /* ProductsTableViewController.swift in Sources */,
 				77C02CA22092AF3200BEE591 /* ProductTableViewCell.swift in Sources */,
 				7797BE9520900C5C00648B9E /* TotalViewController.swift in Sources */,
+				77A75A64209F991F004BB498 /* StateTableViewCell.swift in Sources */,
 				7797BE7E2090088200648B9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

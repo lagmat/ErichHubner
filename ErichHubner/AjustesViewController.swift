@@ -156,15 +156,16 @@ class AjustesViewController: UIViewController {
             tableView.deselectRow(at: indexPath, animated: false)
         }
         
-        func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+         func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
             if editingStyle == .delete {
                 let state = fetchedResultController.object(at: indexPath)
-                    context.delete(state)
-                    do {
-                        try context.save()
-                    } catch {
-                        print(error.localizedDescription)
-                    }
+                context.delete(state)
+                do {
+                    try context.save()
+                    self.loadStates()
+                } catch {
+                    print(error.localizedDescription)
+                }
             }
         }
     }
@@ -188,7 +189,7 @@ class AjustesViewController: UIViewController {
         
         //Método que define a célula que será apresentada em cada linha
             func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-                let cell = tableView.dequeueReusableCell(withIdentifier: "stateCell", for: indexPath)
+                let cell = tableView.dequeueReusableCell(withIdentifier: "stateCell", for: indexPath) as! StateTableViewCell
                 let state = dataSource[indexPath.row]
                 
                 cell.textLabel?.text = state.name
